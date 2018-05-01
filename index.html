@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+
+<div id="app">
+    <span></span>
+    <ul>
+    </ul>
+</div>
+<script src="./build/xue.js"></script>
+<script>
+    const app = new Xue({
+        el: '#app',
+        data() {
+            return {
+                text: 'hello xue!',
+                items: [
+                    '1', '2', '3'
+                ]
+            }
+        }
+    })
+</script>
+</body>
+</html>
